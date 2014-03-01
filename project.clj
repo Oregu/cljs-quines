@@ -6,12 +6,13 @@
   :resource-paths ["res"]
 
   :dependencies [[org.clojure/clojure "1.5.1"]
-                 [org.clojure/core.logic "0.8.5"]
-                 [org.clojure/clojurescript "0.0-2138"]
+                 [org.clojure/core.logic "0.8.7"]
+                 [org.clojure/clojurescript "0.0-2173"]
                  [compojure "1.1.6"]]
 
   :plugins [[lein-cljsbuild "1.0.1"]
-            [lein-ring "0.8.8"]]
+            [lein-ring "0.8.8"]
+            [lein-ancient "0.5.5-SNAPSHOT"]]
 
   :cljsbuild {
     :builds [{
